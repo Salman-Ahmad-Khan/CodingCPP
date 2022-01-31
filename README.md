@@ -1,7 +1,7 @@
 # Codinggg__cpp
 #Codding C++
 
-#This repo conatains the basic concepts of:
-1.C++ language 
-2.Basic solved  problems
-3.Some Advanced problems
+#This repo conatains the basic concepts of: <br>
+1.C++ language  <br>
+2.Basic solved  problems <br>
+3.Some Advanced problems <br>
