@@ -1,0 +1,1 @@
+Input the size of array Input any word arya is not a palindrome

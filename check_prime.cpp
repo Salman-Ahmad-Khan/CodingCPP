@@ -20,14 +20,14 @@ int main()
         if (n % i == 0) // found a factor of n
 
         {
-            cout << n << " is NOT a prime number" << endl;
+            cout <<"'"<< n<<"'" << " is NOT a prime number" << endl;
             break;
         }
     }
     if (i == n) // loop has completed all iterations
 
     {
-        cout << n << " is a PRIME number\n";
+         cout <<"'"<< n<<"'" << " is a prime number" << endl;
     }
 
     return 0;
