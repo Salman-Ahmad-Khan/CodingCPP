@@ -34,21 +34,29 @@ int main()
     pint32 x, y, z;
     // x, y and z are all pointers to long ints.
 
-
-
     // C program to demonstrate typedef
 
+    // After this line BYTE can be used
+    // in place of unsigned char
+    typedef unsigned char BYTE;
 
-// After this line BYTE can be used
-// in place of unsigned char
-typedef unsigned char BYTE;
+    BYTE b1, b2;
+    b1 = 'c';
+    cout << b1 << endl;
 
+    cout << Sal << endl;
 
-	BYTE b1, b2;
-	b1 = 'c';
-	cout<<b1<<endl;
-	
+    /*
+    typedef Declarations:
+You can create a new name for an existing type using typedef. Following is the
+simple syntax to define a new type using typedef:
+typedef existing_type newname;
+*/
 
-cout<<Sal<<endl;
+// For example, the following tells the compiler that feet is another name for int:
+typedef int feet;
+
+// Now, the following declaration is perfectly legal and creates an integer variable  called distance:
+feet distance;
     return 0;
 }
