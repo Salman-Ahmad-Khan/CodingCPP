@@ -32,10 +32,16 @@ int main()
    1. Static Local Variable:
 • Concept as it is taken from C
 • They are by default initialized to zero
-. Their lifetime is throughout the program
+• Their lifetime is throughout the program
+
+void fun()
+{
+    static int x; //it is created only once
+    int y; //created every time when we call/invoke a fun()
+}
 
 
-2.Static Member variable:
+2. Static Member variable:
 • Declared inside the class body
 • Also known as class member variable
 • They must be defined outside the class

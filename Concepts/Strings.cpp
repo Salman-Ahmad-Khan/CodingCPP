@@ -27,16 +27,15 @@ int main()
 
 string str4;
 // cin>>str4; //for cin whitespace is a data separator,so it won't take multi words as input.
-cout<<str4<<endl;
+// cout<<str4<<endl;
 
 //Using getline() function: To input the string with space we use getline() function instead of cin.
 
-// string str5;
-// getline(cin,str5);
-// cout<<str5<<endl;
+string str5;
+getline(cin, str5);
+cout << str5 << endl;
 
-
-            //Different functions of string
+// Different functions of string
 
 /*
 1.append(): Inserts additional characters at the end of the string (can also be

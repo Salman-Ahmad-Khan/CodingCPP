@@ -34,11 +34,9 @@ enumeration, green will have the value 5.
 // Here, blue will have a value of 6 because each name will be one greater than 
 // the one that precedes it.
 
-
-
 /*
 Enumerated types work when you know in advance a finite (usually short) list of values that a
-data type can take on. Here’s an example program, DAYENUM, that uses an enumeration for the
+data type can take on. Here’s an example program, daysOfweek, that uses an enumeration for the
 days of the week:
 */
 enum daysOfweek { Sun, Mon, Tue, Wed, Thu, Fri, Sat} d3;//decalre a varible of type daysOfWeek

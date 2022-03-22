@@ -37,7 +37,7 @@ int main()
     defines a new data type, with more than one member, for your program. The
     format of the struct statement is this:
 
-    struct [structure tag]
+    struct [structure name]
     {
      member definition;
      member definition;
@@ -45,7 +45,7 @@ int main()
      member definition;
     } [one or more structure variables];
 
-    The structure tag is optional and each member definition is a normal variable
+    The structure name is optional and each member definition is a normal variable
     definition, such as int i; or float f; or any other valid variable definition. At the
     end of the structure's definition, before the final semicolon, you can specify one
     or more structure variables but it is optional. Here is the way you would declare

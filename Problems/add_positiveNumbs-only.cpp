@@ -20,7 +20,7 @@ cout<<"\nIf you want to EXIT from the program, please type any negative number"<
         cin >> numb;
     }
 
-    cout << "\nThe sum is of positive numbers is: " << sum << endl;
+    cout << "\nThe sum of positive numbers is: " << sum << endl;
 
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-void printBook(struct Books book);
+void printBook(struct Books);
 
 struct Books
 {
